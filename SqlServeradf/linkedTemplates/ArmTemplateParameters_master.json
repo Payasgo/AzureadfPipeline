@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SqlServeradf"
+		},
+		"CopyDS_AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServer_connectionString": {
+			"value": "Integrated Security=False;Data Source=YARLAGADDA;Initial Catalog=EMPLOYEE;User ID=kky"
+		},
+		"CopyDS_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://copydatafromsql.dfs.core.windows.net/"
+		},
+		"pass_AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://keyforsqlserver.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
