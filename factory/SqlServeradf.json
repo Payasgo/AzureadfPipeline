@@ -1,0 +1,9 @@
+{
+	"name": "SqlServeradf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "47aea5f3-0655-48f5-8a8b-1c722f6c2223",
+		"tenantId": "2db0e13c-89f2-4a67-88ce-504c6fb70607"
+	}
+}
