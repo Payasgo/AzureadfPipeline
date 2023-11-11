@@ -1,0 +1,19 @@
+{
+	"name": "Copy_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CopyDS_AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "copysqlservertable"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
