@@ -1,7 +1,1 @@
-import pyodbc
 
-conn = None
-cur = None
-
-try:
-	conn =
